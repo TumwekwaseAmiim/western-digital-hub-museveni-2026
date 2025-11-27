@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 });
 
+
 /* ============================================================
    COUNTDOWN — JAN 15 2026
 ============================================================ */
@@ -153,6 +154,7 @@ const nationalAchievements = [
   "NRM manifesto focuses on transformation & stability.",
   "Agriculture modernization & wealth creation programs."
 ];
+
 
 // RENDER BOTH LISTS
 const achievementsList = document.getElementById("achievements-list");

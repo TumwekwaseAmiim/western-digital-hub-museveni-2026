@@ -217,7 +217,7 @@ h2, h3 {
 }
 
 /* ============================================================
-   VOTE NOW BUTTON — PRESIDENTIAL
+   VOTE NOW BUTTON
 ============================================================ */
 #vote-btn {
   background: linear-gradient(135deg, #000, #222);
@@ -260,7 +260,7 @@ h2, h3 {
 }
 
 /* ============================================================
-   FOLLOW SECTION — TIKTOK LED POPPING BUTTON
+   FOLLOW SECTION — TIKTOK POPPING BUTTON
 ============================================================ */
 .tiktok-led {
   text-align: center;
@@ -434,9 +434,21 @@ h2, h3 {
 }
 
 /* ============================================================
+   FOOTER
+============================================================ */
+#site-footer {
+  text-align: center;
+  padding: 18px 10px;
+  color: #000;
+  font-weight: 700;
+  text-shadow: 0 0 10px var(--gold-glow);
+  margin-bottom: 20px;
+}
+
+/* ============================================================
    RESPONSIVENESS
 ============================================================ */
-@media(max-width: 480px) {
+@media (max-width: 480px) {
   #mzee-main { width: 70%; }
   #achievements-list { columns: 1; }
   .chat-window { width: 92%; right: 4%; }
