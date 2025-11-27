@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vote Mzee — Vote Stability | January 15, 2026</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+
+<!-- ===================== HERO ===================== -->
+<header id="hero">
+  <img id="nrm-logo" src="images/nrm.png" alt="NRM Logo">
+
+  <div id="hero-content">
+    <h1 id="typed-slogan"></h1>
+    <img id="mzee-main" src="images/museveni.jpg" alt="President Museveni">
+  </div>
+
+  <div id="hero-badges">
+    <span class="badge">Vote Stability</span>
+    <span class="badge">15 January 2026</span>
+    <span class="badge">Mzee My President</span>
+  </div>
+</header>
+
+<main>
+
+<!-- ===================== WEEKLY MESSAGES ===================== -->
+<section id="weekly-messages">
+  <h2>Weekly Message from Mzee</h2>
+  <p class="section-sub">Updated weekly — Video or Audio</p>
+
+  <div id="weekly-player">
+    <div id="media-wrapper">
+      <video id="weekly-video" controls playsinline style="display:none;"></video>
+      <audio id="weekly-audio" controls style="display:none;"></audio>
+    </div>
+    <div id="playlist"></div>
+  </div>
+</section>
+
+<!-- ===================== ACHIEVEMENTS ===================== -->
+<section id="achievements">
+  <h2>Achievements of President Museveni</h2>
+  <ul id="achievements-list"></ul>
+
+  <p class="source-note">Based on Government Fact-Sheet & NRM Manifesto.</p>
+</section>
+
+<!-- ===================== WHY VOTE ===================== -->
+<section id="why-vote">
+  <h2>Why Vote Mzee?</h2>
+  <p id="typed-why"></p>
+</section>
+
+<!-- ===================== VOTE NOW ===================== -->
+<section id="vote-now">
+  <h2>January 15, 2026 — Vote Stability</h2>
+  <button id="vote-btn">Vote Mzee — Vote Stability</button>
+  <p id="countdown"></p>
+</section>
+
+<!-- ===================== CAMPAIGN SONG ===================== -->
+<section id="campaign-music">
+  <h3>Educative Song Inspiring Stability & Development</h3>
+
+  <audio id="campaign-audio" controls>
+    <source src="rutooro.mp3" type="audio/mp3">
+  </audio>
+
+  <button id="download-song">⬇ Download Song</button>
+</section>
+
+<!-- ===================== FOLLOW ===================== -->
+<section id="follow">
+  <h2>Follow the Official TikTok — Spread the Message ❤️</h2>
+
+  <div class="tiktok-led">
+    <a href="https://www.tiktok.com/@votemuseveni2026moregains"
+       class="tiktok-follow-btn"
+       target="_blank">
+
+       <span class="tiktok-follow-icon"></span>
+
+       <div class="tiktok-text">
+         <strong>@VoteMuseveni2026MoreGains</strong><br>
+         Tap to Follow & Re-share for Mzee
+       </div>
+    </a>
+  </div>
+
+  <p class="powered">Powered by Western Digital Hub</p>
+</section>
+
+
+
+<!-- ===================== SHARE ===================== -->
+<section id="share">
+  <h3>Share this Campaign</h3>
+
+  <div class="share-row">
+    <a class="share-link" id="whatsapp" target="_blank">WhatsApp</a>
+    <a class="share-link" id="twitter" target="_blank">Twitter</a>
+    <a class="share-link" id="facebook" target="_blank">Facebook</a>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FLOATING MUSIC BUTTON ===================== -->
+<button id="music-float" title="Toggle background music">🔊</button>
+
+<!-- ===================== CHATBOT ===================== -->
+<button id="open-chat" class="chat-open">Chat with Museveni AI — Western Assistant</button>
+
+<div id="chat" class="chat-window">
+  <div class="chat-header">
+    <strong>Museveni AI — Western Assistant</strong>
+    <button id="close-chat">X</button>
+  </div>
+
+  <div id="chat-messages"></div>
+
+  <div class="chat-input">
+    <input id="chat-input-box" placeholder="Ask Museveni AI — Western Assistant…">
+    <button id="chat-send">Send</button>
+  </div>
+</div>
+
+<!-- ===================== FOOTER ===================== -->
+<footer id="site-footer">
+  <p>Powered by Western Digital Hub</p>
+</footer>
+
+<!-- ===================== SCRIPTS ===================== -->
+<script src="main.js"></script>
+
+</body>
+</html>
